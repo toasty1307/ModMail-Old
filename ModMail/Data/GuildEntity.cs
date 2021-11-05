@@ -10,6 +10,7 @@ public class GuildEntity : Commands.Data.GuildEntity
         GuildId = other.GuildId;
     }
     
+    // ReSharper disable once UnusedMember.Local
     private GuildEntity() { }
 
     public static GuildEntity FromGuildEntity(Commands.Data.GuildEntity guildEntity) =>
