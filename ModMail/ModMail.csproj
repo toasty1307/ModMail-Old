@@ -7,17 +7,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Reference Include="..\..\Commands\Commands\bin\Debug\net6.0\Commands.dll"/>
+        <Reference Include="..\..\Commands\Commands\bin\Debug\net6.0\Commands.dll" />
         <PackageReference Include="DSharpPlus" Version="4.2.0-nightly-01026" />
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="4.0.0-3.final" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0-rc.1.21452.10" />
         <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.0-rc.1" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <None Update="Config.json">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
     </ItemGroup>
 
 </Project>
